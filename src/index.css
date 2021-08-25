@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+#App {
+  display: flex;
+  flex-direction: column;
+}
+#navbar {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+  color: #142b6f;
+  font-weight: 700;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  background-color: white;
+}
+#future_of_health {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  height: 500px;
+  width: 96%;
+  color: #142b6f;
+
+  margin-left: 2%;
+  background-size: 100% 100%;
+  background-image: url("//images.ctfassets.net/uuc5ok478nyh/6dDqtNr4Taao1Qwl4zf6UK/e1141217232b45bdc278746c3a6dcf87/Home-Hero-Mobile.jpg?w=912&h=912&fl=progressive&q=90&fm=jpg");
+}
+#main_heading {
+  font-size: 30px;
+}
+#navbar > div {
+  width: 10%;
+}
+#cart {
+  display: flex;
+  justify-content: space-between;
+}
+#shop_cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15%;
+  width: 23%;
+}
+#shop_cart_item {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  color: #142b6f;
+  font-weight: 600;
+}
+.div1 {
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.div2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.div3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.div4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #142b6f;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 25px 25px 25px 25px;
+  width: 130px;
+  color: white;
 }
