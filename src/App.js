@@ -50,9 +50,22 @@ export class App extends React.Component {
             return <Shop product={product} key={product.key} />;
           })}
         </div>
-
+        <div id="make_yourself">
+          <div style={styles.div2}>Make Your Self</div>
+          <div>Commit to yourself every single day with @Ritual</div>
+          <div id="shop_cart_item">
+            {products.map((product) => {
+              return <Shop product={product} key={product.key} />;
+            })}
+          </div>
+        </div>
         <Footer />
       </div>
     );
   }
 }
+const styles = {
+  div2: {
+    fontSize: 40,
+  },
+};

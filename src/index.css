@@ -50,7 +50,7 @@ code {
   display: flex;
   justify-content: space-between;
 }
-#shop_cart {
+.shop_cart {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,4 +91,38 @@ code {
   border-radius: 25px 25px 25px 25px;
   width: 130px;
   color: white;
+}
+/******footer************/
+#footer {
+  padding-top: 20px;
+  margin-top: 5%;
+  border-top: 4px solid #142b6f;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  color: #142b6f;
+  font-weight: 700;
+  border-bottom: 1px solid #142b6f;
+}
+#make_yourself {
+  text-align: center;
+  align-items: center;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 300px;
+  margin-left: 10%;
+  color: #142b6f;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }

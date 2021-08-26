@@ -5,7 +5,7 @@ export class Shop extends React.Component {
   render() {
     const { topic, img } = this.props.product;
     return (
-      <div id="shop_cart">
+      <div className="shop_cart">
         <div>
           <img style={styles.image} alt="" src={img} />
         </div>
