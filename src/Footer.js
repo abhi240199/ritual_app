@@ -13,14 +13,14 @@ export class Footer extends React.Component {
           <div>Bundles</div>
           <div>Gift Cards</div>
         </div>
-        <div>
+        <div className="abc">
           <div style={styles.div1}>About</div>
           <div>Ingredients</div>
           <div>Who We Are</div>
           <div>Our Clinical Study</div>
           <div>Reviews</div>
         </div>
-        <div>
+        <div className="abc">
           <div style={styles.div1}>More</div>
           <div>Careers</div>
           <div>Press</div>

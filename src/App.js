@@ -3,6 +3,8 @@ import { Navbar } from "./Navbar";
 import { Shop } from "./Shop";
 
 import * as React from "react";
+import { Essential } from "./Essential";
+import { LeftRight } from "./LeftRight";
 
 export class App extends React.Component {
   constructor() {
@@ -50,6 +52,14 @@ export class App extends React.Component {
             return <Shop product={product} key={product.key} />;
           })}
         </div>
+        <div id="essential_div">
+          <div style={styles.div1}>
+            Daily essentials with good intentions — for living life or creating
+            it.
+          </div>
+          <Essential />
+        </div>
+        <LeftRight />
         <div id="make_yourself">
           <div style={styles.div2}>Make Your Self</div>
           <div>Commit to yourself every single day with @Ritual</div>
@@ -67,5 +77,9 @@ export class App extends React.Component {
 const styles = {
   div2: {
     fontSize: 40,
+  },
+  div1: {
+    fontWeight: 700,
+    fontSize: 20,
   },
 };

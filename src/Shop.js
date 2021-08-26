@@ -16,7 +16,7 @@ export class Shop extends React.Component {
 }
 const styles = {
   image: {
-    height: "80%",
-    width: "100%",
+    height: "100%",
+    width: "90%",
   },
 };
